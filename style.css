@@ -1,0 +1,218 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.lap {
+    width: 80%;
+    margin: 20px auto;
+}
+.lap .header {
+width: 100% ;
+height: 150px;
+background-color: rgb(57, 61, 61);
+display: flex;
+align-items: center;
+
+}
+.header img
+{ width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    box-shadow:  4px 4px 15px rgba(128, 128, 128, 0,5);
+top: 50px;
+left: 70px;
+}
+.header .név {color: white;
+    margin-left: auto;
+width: 60%;
+}
+.header .név h1 {font-size: 80px;
+
+}
+.header .név p {font-size: 60px;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-area {    
+    width: 30%;
+    background-color: lightgrey;
+    text-align: center;
+}
+.left-area .contact
+{
+    margin-top: 100px;
+    padding:30px 0
+}
+.contact h4{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: normal;
+}
+    
+
+.contact h5 {
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+.contact p {
+    font-size: 17px;
+
+}
+.skills {
+    margin-top: 30px;
+}
+.skills h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+.bars {
+    margin-top: 30px;
+    display: grid;
+    
+    grid-gap: 20px 10px;
+}
+
+.bars .bar p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.bar span {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+    
+
+}
+.follow h1 {
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.follow h4 { font-size: 18px;
+    margin: 10px 0;
+
+
+}
+.follow p {
+    font-size: 15px;
+     color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-area
+{
+    width: 70%;
+  background-color: rgb(64, 66, 66);
+ 
+}
+.right-area h1 {
+    font-size: 35px;
+    font-weight: normal;
+}
+.right-area h span {
+    margin-right: 30px;
+    font-size: 50px;
+    color: red;
+}
+.right-area p{
+    padding-left: 70px;
+font-size: 17px;
+color: white
+;margin-top: 10px;
+}
+.work .work-group {position: relative;
+
+}
+.work-group h3 {
+    font-size: 22px;
+    font-weight: normal;
+padding-left: 70px;
+}
+.work-group h4 {
+    padding-left: 70px;
+    font-size: 18px;
+    font-weight: normal
+    ;
+    color: gray;
+}
+.work-group span {
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+}
+.education {
+    margin-top: 30px;
+
+}
+.edu-group
+{
+    position:relative
+}
+.edu-group h4 {
+    padding-left: 80px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.edu-group span {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.kérdés h4 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.kérdés p {
+    font-size: 18px;
+}
+
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;}
+
+
